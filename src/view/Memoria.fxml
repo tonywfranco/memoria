@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="727.0" prefWidth="1260.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MemoriaController">
+   <children>
+      <ImageView fx:id="CartaUm" fitHeight="150.0" fitWidth="100.0" layoutX="103.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../midia/Baralho_verso.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="CartaDois" fitHeight="150.0" fitWidth="100.0" layoutX="213.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../midia/Baralho_verso.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="CartaTres" fitHeight="150.0" fitWidth="100.0" layoutX="323.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../midia/Baralho_verso.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="CartaQuatro" fitHeight="150.0" fitWidth="100.0" layoutX="433.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../midia/Baralho_verso.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="CartaCinco" fitHeight="150.0" fitWidth="100.0" layoutX="543.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../midia/Baralho_verso.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="CartaSeis" fitHeight="150.0" fitWidth="100.0" layoutX="653.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../midia/Baralho_verso.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="CartaSete" fitHeight="150.0" fitWidth="100.0" layoutX="763.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../midia/Baralho_verso.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="CartaOito" fitHeight="150.0" fitWidth="100.0" layoutX="873.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../midia/Baralho_verso.jpg" />
+         </image>
+      </ImageView>
+      <TilePane hgap="10.0" layoutX="1062.0" layoutY="191.0" prefHeight="268.0" prefWidth="178.0" vgap="10.0">
+         <children>
+            <ImageView fx:id="ImgTony" fitHeight="68.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../midia/Baralho_Tony.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ImgElena" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../midia/Baralho_Elena.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ImgAline" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../midia/Baralho_Aline.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ImgEliane" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../midia/Baralho_Eliane.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ImgAloysio" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../midia/Baralho_Aloysio.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ImgEmilia" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../midia/Baralho_Emilia_Clarke.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ImgDaisy" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../midia/Baralho_Daisy_Ridley.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ImgUrsula" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../midia/Baralho_Ursula_Corbero.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ImgNatalie" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../midia/Baralho_Natalie_Portman.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ImgScarlet" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../midia/Baralho_Scarlet_Johansson.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ImgGal" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../midia/Baralho_Gal_Gadot.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ImgKate" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../midia/Baralho_Kate_Beckinsale.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ImgBaralho" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../midia/Baralho_verso.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </TilePane>
+      <Button fx:id="btJogar" layoutX="817.0" layoutY="33.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="164.0" text="Jogar!">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <ImageView fx:id="imgParabens" fitHeight="284.0" fitWidth="491.0" layoutX="290.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../midia/Parabens.gif" />
+         </image>
+      </ImageView>
+      <Text fx:id="txMinutos" layoutX="594.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="00" textAlignment="RIGHT">
+         <font>
+            <Font size="30.0" />
+         </font></Text>
+      <Text fx:id="txTempo" layoutX="589.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tempo:">
+         <font>
+            <Font name="Calibri" size="24.0" />
+         </font></Text>
+      <Text layoutX="626.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text=":">
+         <font>
+            <Font size="24.0" />
+         </font></Text>
+      <Text fx:id="txSegundos" layoutX="635.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="00" textAlignment="RIGHT">
+         <font>
+            <Font size="30.0" />
+         </font></Text>
+      <Button fx:id="btRecom" layoutX="987.0" layoutY="33.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="164.0" text="Recomeçar">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <ImageView fx:id="CartaNove" fitHeight="150.0" fitWidth="100.0" layoutX="102.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../midia/Baralho_verso.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="CartaDez" fitHeight="150.0" fitWidth="100.0" layoutX="212.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../midia/Baralho_verso.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="CartaOnze" fitHeight="150.0" fitWidth="100.0" layoutX="322.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../midia/Baralho_verso.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="CartaDoze" fitHeight="150.0" fitWidth="100.0" layoutX="432.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../midia/Baralho_verso.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="CartaTreze" fitHeight="150.0" fitWidth="100.0" layoutX="542.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../midia/Baralho_verso.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="CartaCatorze" fitHeight="150.0" fitWidth="100.0" layoutX="652.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../midia/Baralho_verso.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="CartaQuinze" fitHeight="150.0" fitWidth="100.0" layoutX="762.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../midia/Baralho_verso.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="CartaDezesseis" fitHeight="150.0" fitWidth="100.0" layoutX="872.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../midia/Baralho_verso.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="1089.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Personagens">
+         <font>
+            <Font name="Calibri" size="24.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="CartaDezessete" fitHeight="150.0" fitWidth="100.0" layoutX="102.0" layoutY="474.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../midia/Baralho_verso.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="CartaDezoito" fitHeight="150.0" fitWidth="100.0" layoutX="212.0" layoutY="474.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../midia/Baralho_verso.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="CartaDezenove" fitHeight="150.0" fitWidth="100.0" layoutX="322.0" layoutY="474.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../midia/Baralho_verso.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="CartaVinte" fitHeight="150.0" fitWidth="100.0" layoutX="432.0" layoutY="474.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../midia/Baralho_verso.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="CartaVinteUm" fitHeight="150.0" fitWidth="100.0" layoutX="542.0" layoutY="474.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../midia/Baralho_verso.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="CartaVinteDois" fitHeight="150.0" fitWidth="100.0" layoutX="652.0" layoutY="474.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../midia/Baralho_verso.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="CartaVinteTres" fitHeight="150.0" fitWidth="100.0" layoutX="762.0" layoutY="474.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../midia/Baralho_verso.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="CartaVinteQuatro" fitHeight="150.0" fitWidth="100.0" layoutX="872.0" layoutY="474.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../midia/Baralho_verso.jpg" />
+         </image>
+      </ImageView>
+      <Text fx:id="txHelp" layoutX="1226.0" layoutY="24.0" opacity="0.53" strokeType="OUTSIDE" strokeWidth="0.0" text="help">
+         <font>
+            <Font name="Calibri Italic" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="1225.0" layoutY="33.0" opacity="0.53" strokeType="OUTSIDE" strokeWidth="0.0" text="-">
+         <font>
+            <Font name="Calibri Italic" size="24.0" />
+         </font>
+      </Text>
+      <HBox layoutX="106.0" layoutY="55.0" spacing="10.0">
+         <children>
+            <CheckBox fx:id="cbFacil" mnemonicParsing="false" text="Fácil" />
+            <CheckBox fx:id="cbMedio" mnemonicParsing="false" text="Médio" />
+            <CheckBox fx:id="cbDificil" mnemonicParsing="false" text="Difícil" />
+            <CheckBox fx:id="cbHard" mnemonicParsing="false" text="Hard">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </CheckBox>
+         </children>
+      </HBox>
+      <Text layoutX="216.0" layoutY="44.0" opacity="0.53" strokeType="OUTSIDE" strokeWidth="0.0" text="Dificuldade:">
+         <font>
+            <Font name="Calibri Italic" size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
