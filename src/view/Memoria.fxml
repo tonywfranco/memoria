@@ -54,64 +54,64 @@
       </ImageView>
       <TilePane hgap="10.0" layoutX="1062.0" layoutY="191.0" prefHeight="268.0" prefWidth="178.0" vgap="10.0">
          <children>
-            <ImageView fx:id="ImgTony" fitHeight="68.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="ImgAgaphantus" fitHeight="68.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../midia/Baralho_Tony.jpg" />
+                  <Image url="@../midia/Baralho_Agaphantus.jpg" />
                </image>
             </ImageView>
-            <ImageView fx:id="ImgElena" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="ImgAzaleia" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../midia/Baralho_Elena.jpg" />
+                  <Image url="@../midia/Baralho_Azaleia.jpg" />
                </image>
             </ImageView>
-            <ImageView fx:id="ImgAline" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="ImgBegonia" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../midia/Baralho_Aline.jpg" />
+                  <Image url="@../midia/Baralho_Begonia.jpg" />
                </image>
             </ImageView>
-            <ImageView fx:id="ImgEliane" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="ImgCamelia" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../midia/Baralho_Eliane.jpg" />
+                  <Image url="@../midia/Baralho_Camelia.jpg" />
                </image>
             </ImageView>
-            <ImageView fx:id="ImgAloysio" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="ImgCopoDeLeite" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../midia/Baralho_Aloysio.jpg" />
+                  <Image url="@../midia/Baralho_Copo_de_Leite.jpg" />
                </image>
             </ImageView>
-            <ImageView fx:id="ImgEmilia" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="ImgDalia" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../midia/Baralho_Emilia_Clarke.jpg" />
+                  <Image url="@../midia/Baralho_Dalia.jpg" />
                </image>
             </ImageView>
-            <ImageView fx:id="ImgDaisy" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="ImgFlorDeLotus" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../midia/Baralho_Daisy_Ridley.jpg" />
+                  <Image url="@../midia/Baralho_Flor_de_Lotus.jpg" />
                </image>
             </ImageView>
-            <ImageView fx:id="ImgUrsula" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="ImgHortencia" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../midia/Baralho_Ursula_Corbero.jpg" />
+                  <Image url="@../midia/Baralho_Hortencia.jpg" />
                </image>
             </ImageView>
-            <ImageView fx:id="ImgNatalie" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="ImgLirio" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../midia/Baralho_Natalie_Portman.jpg" />
+                  <Image url="@../midia/Baralho_Lirio.jpg" />
                </image>
             </ImageView>
-            <ImageView fx:id="ImgScarlet" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="ImgMagnolia" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../midia/Baralho_Scarlet_Johansson.jpg" />
+                  <Image url="@../midia/Baralho_Magnolia.jpg" />
                </image>
             </ImageView>
-            <ImageView fx:id="ImgGal" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="ImgManacaDaSerra" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../midia/Baralho_Gal_Gadot.jpg" />
+                  <Image url="@../midia/Baralho_Manaca_da_Serra.jpg" />
                </image>
             </ImageView>
-            <ImageView fx:id="ImgKate" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="ImgMargarida" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../midia/Baralho_Kate_Beckinsale.jpg" />
+                  <Image url="@../midia/Baralho_Margarida.jpg" />
                </image>
             </ImageView>
             <ImageView fx:id="ImgBaralho" fitHeight="197.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
@@ -190,7 +190,7 @@
             <Image url="@../midia/Baralho_verso.jpg" />
          </image>
       </ImageView>
-      <Text layoutX="1089.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Personagens">
+      <Text layoutX="1118.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Flores">
          <font>
             <Font name="Calibri" size="24.0" />
          </font>

@@ -14,6 +14,7 @@ import javafx.application.Platform;
 import javafx.event.EventHandler;
 import javafx.scene.control.Alert;
 import javafx.scene.control.CheckBox;
+import javafx.scene.control.Tooltip;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
@@ -98,31 +99,40 @@ public class MemoriaController implements Initializable {
     private ImageView CartaVinteQuatro;
 
     @FXML
-    private ImageView ImgTony;
+    private ImageView ImgAgaphantus;
 
     @FXML
-    private ImageView ImgElena;
+    private ImageView ImgAzaleia;
 
     @FXML
-    private ImageView ImgEmilia;
+    private ImageView ImgBegonia;
 
     @FXML
-    private ImageView ImgDaisy;
+    private ImageView ImgCamelia;
 
     @FXML
-    private ImageView ImgUrsula;
+    private ImageView ImgCopoDeLeite;
 
     @FXML
-    private ImageView ImgNatalie;
+    private ImageView ImgDalia;
 
     @FXML
-    private ImageView ImgScarlet;
+    private ImageView ImgFlorDeLotus;
 
     @FXML
-    private ImageView ImgGal;
+    private ImageView ImgHortencia;
 
     @FXML
-    private ImageView ImgKate;
+    private ImageView ImgLirio;
+
+    @FXML
+    private ImageView ImgMagnolia;
+
+    @FXML
+    private ImageView ImgManacaDaSerra;
+
+    @FXML
+    private ImageView ImgMargarida;
 
     @FXML
     private Button btJogar;
@@ -141,15 +151,6 @@ public class MemoriaController implements Initializable {
 
     @FXML
     private Button btRecom;
-
-    @FXML
-    private ImageView ImgAline;
-
-    @FXML
-    private ImageView ImgEliane;
-
-    @FXML
-    private ImageView ImgAloysio;
 
     @FXML
     private Text txTempo;
@@ -189,6 +190,7 @@ public class MemoriaController implements Initializable {
         txSegundos.setFont(Font.font("digital-7", 30));
         btRecom.setDisable(true);
         cbFacil.setSelected(true);
+        tooltipFlores();
 
         btJogar.setOnAction((event) -> {
             btJogar.setDisable(true);
@@ -341,6 +343,21 @@ public class MemoriaController implements Initializable {
         });
     }
 
+    private void tooltipFlores() {
+        Tooltip.install(ImgAgaphantus, new Tooltip("Agaphantus"));
+        Tooltip.install(ImgAzaleia, new Tooltip("Azaléia"));
+        Tooltip.install(ImgBegonia, new Tooltip("Begônia"));
+        Tooltip.install(ImgCamelia, new Tooltip("Camélia"));
+        Tooltip.install(ImgCopoDeLeite, new Tooltip("Copo de Leite"));
+        Tooltip.install(ImgDalia, new Tooltip("Dália"));
+        Tooltip.install(ImgFlorDeLotus, new Tooltip("Flor de Lótus"));
+        Tooltip.install(ImgHortencia, new Tooltip("Hortência"));
+        Tooltip.install(ImgLirio, new Tooltip("Lírio"));
+        Tooltip.install(ImgMagnolia, new Tooltip("Magnólia"));
+        Tooltip.install(ImgManacaDaSerra, new Tooltip("Manacá da Serra"));
+        Tooltip.install(ImgMargarida, new Tooltip("Margarida"));
+    }
+
     private void embaralhar() {
         if (btJogar.getText().equals("Jogar Novamente!")) {
             btJogar.setText("Jogar!");
@@ -475,29 +492,29 @@ public class MemoriaController implements Initializable {
             ImageView imageview = null;
 
             if (b == 1 || b == 3) {
-                imageview = ImgTony;
+                imageview = ImgAgaphantus;
             } else if (b == 2 || b == 4) {
-                imageview = ImgElena;
+                imageview = ImgAzaleia;
             } else if (b == 5 || b == 6) {
-                imageview = ImgAline;
+                imageview = ImgMagnolia;
             } else if (b == 7 || b == 8) {
-                imageview = ImgEliane;
+                imageview = ImgManacaDaSerra;
             } else if (b == 9 || b == 10) {
-                imageview = ImgAloysio;
+                imageview = ImgMargarida;
             } else if (b == 11 || b == 12) {
-                imageview = ImgEmilia;
+                imageview = ImgBegonia;
             } else if (b == 13 || b == 14) {
-                imageview = ImgKate;
+                imageview = ImgLirio;
             } else if (b == 15 || b == 16) {
-                imageview = ImgScarlet;
+                imageview = ImgFlorDeLotus;
             } else if (b == 17 || b == 18) {
-                imageview = ImgDaisy;
+                imageview = ImgCamelia;
             } else if (b == 19 || b == 20) {
-                imageview = ImgUrsula;
+                imageview = ImgCopoDeLeite;
             } else if (b == 21 || b == 22) {
-                imageview = ImgNatalie;
+                imageview = ImgDalia;
             } else if (b == 23 || b == 24) {
-                imageview = ImgGal;
+                imageview = ImgHortencia;
             }
 
             if (k == 1) {
@@ -628,30 +645,7 @@ public class MemoriaController implements Initializable {
                     CartaVinteQuatro.setImage(ImgBaralho.getImage());
                 }
             }
-            //1- Tony
-            //2- Elena
-            //3- Tony
-            //4- Elena
-            //5- Aline
-            //6- Aline
-            //7- Eliane
-            //8- Eliane
-            //9- Aloysio
-            //10- Aloysio
-            //11- Emilia
-            //12- Emilia
-            //13- Kate
-            //14- Kate
-            //15- Scarlet
-            //16- Scarlet
-            //17- Daisy
-            //18- Daisy
-            //19- Ursula
-            //20- Ursula
-            //21- Natalie
-            //22- Natalie
-            //23- Gal
-            //24- Gal
+
             if ((comparaA == 1 && comparaB == 3) || (comparaA == 3 && comparaB == 1) || (comparaA == 2 && comparaB == 4) || (comparaA == 4 && comparaB == 2)
                     || (comparaA == 5 && comparaB == 6) || (comparaA == 6 && comparaB == 5) || (comparaA == 7 && comparaB == 8) || (comparaA == 8 && comparaB == 7)
                     || (comparaA == 9 && comparaB == 10) || (comparaA == 10 && comparaB == 9) || (comparaA == 11 && comparaB == 12) || (comparaA == 12 && comparaB == 11)
@@ -1108,9 +1102,8 @@ public class MemoriaController implements Initializable {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle("Help");
         alert.setHeaderText("Elena Memorizadora 1.0");
-        alert.setContentText("Trata-se de um jogo de memória simples, com família"
-                + "\n" + "e grandes atrizes, para a sobrinha amada treinar sua"
-                + "\n" + "capacidade de memorização.\n"
+        alert.setContentText("Trata-se de um jogo de memória simples, com flores,"
+                + "\n" + "para a sobrinha treinar sua capacidade de memorização.\n"
                 + "\n" + "Enviar dúvidas/erros/sugestões para o e-mail: 'tonywillyfranco@hotmail.com'.\n"
                 + "\n" + "Programado por Tony Franco em Abril-Maio/2020.\n");
         alert.getDialogPane().setPrefSize(400, 340);
