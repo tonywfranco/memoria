@@ -1,2 +1,3 @@
-# memoria
-Um jogo de memória
+# Jogo de Memória
+
+Um jogo de memória para divertimento e passa tempo.
